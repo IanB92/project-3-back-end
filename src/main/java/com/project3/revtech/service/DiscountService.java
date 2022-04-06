@@ -13,4 +13,5 @@ public interface DiscountService {
 	DiscountPojo addDiscount(DiscountPojo discountPojo) throws ApplicationException;
 	DiscountPojo updateDiscount(DiscountPojo newDiscountPojo) throws ApplicationException;
 	boolean removeDiscount(int discId) throws ApplicationException;
+	
 }
